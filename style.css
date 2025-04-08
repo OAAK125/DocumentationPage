@@ -1,11 +1,11 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,67 +17,67 @@ header{
     align-items: center; 
     justify-content: center; 
     position: relative; 
-    padding: 30px;
+    padding: 1.875rem;
     background-color: bisque;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
     width: 100%;
 }
 
-#navbar {
+.navBar {
     width: 50%;
-    max-height: 300px; 
+    max-height: 30vh; 
     overflow-y: auto; 
-    border: 1px solid #000;
+    border: 1px solid black;
     width: 95%;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
 
 nav ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
 }
 
 nav li {
     border-bottom: 1px solid #000;
-    padding: 15px;
+    padding: 0.938rem;
 }
 
 li:last-child {
     border-bottom: none;
 }
 
-.nav-link {
+.navLink {
     text-decoration: none;
     color: gray;
     display: block;
 }
 
-.nav-link:hover {
+.navLink:hover {
     color: black;
     font-weight: bold;
 }
 
 h2{
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 p{
-    padding: 0 30px;
+    padding: 0 1.875rem;
     color: gray;
-    margin: 10px;
+    margin: 0.625rem;
 }
 
 pre {
     background-color: whitesmoke;
-    padding: 10px;
+    padding: 0.625rem;
     border: none;
     border-radius: 5px;
     color: black;
-    margin: 30px;
+    margin: 1.875rem;
 }
 
 ul{
-    padding-left: 60px;
+    padding-left: 3.75rem;
     color: gray;
 }
